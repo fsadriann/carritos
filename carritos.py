@@ -14,10 +14,11 @@ desplazamiento_x1 = random.randint(1,5)
 desplazamiento_y = 0
 intervalo = 5
 
+
+
 # jugar
 def jugar():
     global desplazamiento_x, desplazamiento_y
-    
     x0, y0, = canvas.coords(carro1)
     x1, y2, =canvas.coords(carro2)
     if x0 < 0 or y0> BASE: 
